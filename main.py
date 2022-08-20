@@ -10,6 +10,6 @@ class MainApp(MDApp):
 	if(web3.isConnected()):    
    		return MDLabel(text="OK connected ! ", halign="center")
 	else:
-		return MDLabel(text="OK connected ! ", halign="center")
+		return MDLabel(text="KO ", halign="center")
 
 MainApp().run()
