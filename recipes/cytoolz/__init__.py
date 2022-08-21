@@ -8,7 +8,7 @@ class CytoolzRecipe(CythonRecipe):
     url = "http://mirror.archlinuxarm.org/aarch64/community/python-cytoolz-debug-{version}-aarch64.pkg.tar.xz"
     name = "cytoolz"
 
-    depends: List[str] = ["setuptools"]
+    depends = ["setuptools"]
 
 
 recipe = CytoolzRecipe()
