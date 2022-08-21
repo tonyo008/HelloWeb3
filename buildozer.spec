@@ -62,7 +62,6 @@ requirements =
     lru-dict==1.1.5,
     openssl,
     parsimonious==0.8.1,
-    Pillow==7.0.0,
     pycryptodome==3.4.6,
     python3,
     pyzbar==0.1.8,
