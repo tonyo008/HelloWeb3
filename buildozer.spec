@@ -70,7 +70,7 @@ requirements =
     raven==6.1.0,
     requests==2.20.0,
     rlp==1.0.3,
-    setuptools==40.9.0,
+    setuptools==65.1.1,
     toolz==0.9.0,
     urllib3==1.24.1,
     web3
