@@ -62,7 +62,6 @@ requirements =
     idna,
     lru-dict,
     openssl,
-    parsimonious,
     pycryptodome,
     pyzbar,
     raven,
@@ -70,7 +69,6 @@ requirements =
     rlp,
     setuptools,
     toolz==0.12.0,
-    urllib3,
     web3
 
 
