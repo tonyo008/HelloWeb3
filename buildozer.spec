@@ -47,7 +47,7 @@ requirements =
     certifi,
     cffi,
     chardet,
-    cytoolz==0.12.0-1,
+    cytoolz==0.12.0,
     eth-abi,
     eth-account,
     eth-accounts,
@@ -68,7 +68,7 @@ requirements =
     requests,
     rlp,
     setuptools,
-    toolz==0.12.0-1,
+    toolz==0.12.0,
     urllib3,
     web3
 
