@@ -39,36 +39,10 @@ version = 0.1
 # comma separated e.g. requirements = sqlite3,kivy
 requirements = 
     python3,
-    cython,
     kivy,
     kivymd,
     pillow,
     android,
-    attrdict,
-    certifi,
-    cffi,
-    chardet,
-    cytoolz==0.12.0,
-    eth-abi,
-    eth-account,
-    eth-accounts,
-    eth-hash,
-    eth-keyfile,
-    eth-keys,
-    eth-rlp,
-    eth-utils,
-    eth-typing,
-    hexbytes,
-    idna,
-    lru-dict,
-    openssl,
-    pycryptodome,
-    pyzbar,
-    raven,
-    requests,
-    rlp,
-    setuptools,
-    toolz==0.12.0,
     web3
 
 
@@ -333,7 +307,7 @@ android.allow_backup = True
 #p4a.fork = kivy
 
 # (str) python-for-android branch to use, defaults to master
-p4a.branch = develop
+p4a.branch = master
 
 # (str) python-for-android specific commit to use, defaults to HEAD, must be within p4a.branch
 #p4a.commit = HEAD
@@ -342,7 +316,7 @@ p4a.branch = develop
 #p4a.source_dir =
 
 # (str) The directory in which python-for-android should look for your own build recipes (if any)
-p4a.local_recipes = recipes/
+#p4a.local_recipes = recipes/
 
 # (str) Filename to the hook for p4a
 #p4a.hook =
