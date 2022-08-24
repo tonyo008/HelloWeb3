@@ -43,6 +43,7 @@ requirements =
     kivymd,
     pillow,
     android,
+    eth_account,
     web3
 
 
