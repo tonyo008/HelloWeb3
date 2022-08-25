@@ -62,12 +62,22 @@ requirements =
     hostpython3==3.8.1,
     https://github.com/corpetty/py-etherscan-api/archive/cb91fb3.tar.gz,
     lru-dict==1.1.5,
+    idna==2.7,
     openssl,
     urllib3==1.24.1,
     idna==2.7,
     setuptools==42.0.2,
     cytoolz==0.9.0,
     toolz==0.9.0,
+    pycryptodome==3.4.6,
+    parsimonious==0.8.1,
+    plyer==1.3.1,
+    pyzbar==0.1.8,
+    requests==2.20.0,
+    requests-cache==0.4.13,
+    rlp==1.0.3,
+    urllib3==1.24.1,
+    websockets,
     web3==5.2.0
 
 
