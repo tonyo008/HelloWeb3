@@ -43,8 +43,21 @@ requirements =
     kivymd,
     pillow,
     android,
-    eth_account,
-    web3
+    eth-abi==2.0.0,
+    eth-account==0.4.0,
+    eth-accounts==20191227,
+    eth-hash==0.1.1,
+    eth-keyfile==0.5.1,
+    eth-keys==0.2.0b3,
+    eth-rlp==0.1.2,
+    eth-utils==1.4.1,
+    eth-typing==2.0.0,
+    hexbytes==0.1.0,
+    idna==2.7,
+    setuptools==40.9.0,
+    cytoolz==0.9.0,
+    toolz==0.9.0,
+    web3==5.2.0
 
 
 # (str) Custom source folders for requirements
