@@ -38,11 +38,17 @@ version = 0.1
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 requirements = 
-    python3,
+    Pygments==2.2.0,
+    python-dotenv==0.12.0,
+    python3==3.8.1,
     kivy,
     kivymd,
     pillow,
     android,
+    attrdict==2.0.0,
+    certifi==2018.10.15,
+    cffi==1.13.2,
+    chardet==3.0.4,
     eth-abi==2.0.0,
     eth-account==0.4.0,
     eth-accounts==20191227,
@@ -53,8 +59,13 @@ requirements =
     eth-utils==1.4.1,
     eth-typing==2.0.0,
     hexbytes==0.1.0,
+    hostpython3==3.8.1,
+    https://github.com/corpetty/py-etherscan-api/archive/cb91fb3.tar.gz,
+    lru-dict==1.1.5,
+    openssl,
+    urllib3==1.24.1,
     idna==2.7,
-    setuptools==40.9.0,
+    setuptools==42.0.2,
     cytoolz==0.9.0,
     toolz==0.9.0,
     web3==5.2.0
@@ -330,7 +341,7 @@ p4a.branch = master
 #p4a.source_dir =
 
 # (str) The directory in which python-for-android should look for your own build recipes (if any)
-#p4a.local_recipes = recipes/
+p4a.local_recipes = recipes/
 
 # (str) Filename to the hook for p4a
 #p4a.hook =
