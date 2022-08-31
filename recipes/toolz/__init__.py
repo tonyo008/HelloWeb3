@@ -4,7 +4,7 @@ from pythonforandroid.recipe import CythonRecipe
 class ToolzRecipe(CythonRecipe): 
     """Build toolz"""
 
-    version = "0.9.0"
+    version = "0.10.0"
     url = "https://github.com/pytoolz/toolz/archive/refs/tags/{version}.zip"
     name = "toolz"
 
