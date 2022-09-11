@@ -71,7 +71,7 @@ requirements =
     toolz==0.9.0,
     pycryptodome==3.4.6,
     parsimonious==0.8.1,
-    plyer==1.3.1,
+    https://github.com/kivy/plyer/archive/refs/heads/master.zip,
     pyzbar==0.1.8,
     requests==2.20.0,
     requests-cache==0.4.13,
